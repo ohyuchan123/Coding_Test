@@ -11,9 +11,9 @@ def solution(numer1, denom1, numer2, denom2):
     number = denom1*numer2+denom2*numer1 #분자
     denom = denom1 * denom2 # 분모
 
-    gcd = math.gcd(denom,number)
+    gcd = math.gcd(denom,number) #최대공약수
 
-    answer[0] = number//gcd
+    answer[0] = number//gcd 
     answer[1] = denom//gcd
 
     return answer
