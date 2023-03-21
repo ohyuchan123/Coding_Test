@@ -3,6 +3,7 @@
 # 중앙값을 return 하도록 solution 함수를 완성해보세요.
 
 a = [1, 2, 7, 10, 11]
+#sort : 정렬, 기본값은 오름차순 정렬, reverse옵션 True는 내림차순 정렬
 a.sort()
 print(a)
 
@@ -15,3 +16,6 @@ def solution(array):
     return result
 
 print(solution(a))
+
+#reverse : 리스트를 거꾸로 뒤집는다. desc 정렬이 아님
+a.reverse()
