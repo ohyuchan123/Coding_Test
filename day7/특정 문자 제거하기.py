@@ -27,3 +27,6 @@ search = 'f'
 print(my_string.replace(search,' '))
 
 # 정답
+
+def solution(my_string, letter):
+    return my_string.replace(letter,'')
